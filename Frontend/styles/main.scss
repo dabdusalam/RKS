@@ -1,0 +1,369 @@
+
+body{
+    background-color: #fffdd0;
+    font-family: 'Assistant', sans-serif;
+    color: #071c4d;
+    justify-content: center;
+
+    width: 412px;
+    margin: auto;  
+}
+.bodyy{
+    background-color: #fff;
+    width: 412px;
+    height: 700px;
+}
+//header
+.navbar-header{
+    background-color:#6BEEE6;
+    height: 72px;
+    .navbar-menu{
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;
+        background: #fff;
+        border: 1px solid #707070;
+        box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.16);
+        .assistant{
+            margin:-5px 0 0 10px;
+            justify-content: left;
+            width: 29.25px;
+            height: 31.5px;
+            background: transparent;
+        }
+        p{
+            margin-left: 20px;
+            margin-top: -5px;
+            font-family: "Segoe UI";
+            font-weight: normal;
+            font-size: 20px;
+            text-align: left;
+            color: #707070;
+        }
+        .lokasi{
+            margin-left: 145px;
+        }
+        .icon{
+            margin-top: -3px;
+            margin-left: 8px;
+            width: 21.57px;
+            height: 28.76px;
+
+        }
+        .icon-online{
+            width: 22px;
+            height: 22px;
+            margin-left: 20px;
+        }
+    }
+    
+}
+//isi
+.mainsection{
+    padding-top: 28px;
+    .mainsection-chat{
+        width: 120px;
+        height: 144px;
+        border-radius: 16px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin: auto;
+        .menusatu{
+            padding-top: 10px ;
+        }
+        p{
+            font-family: "Berlin Sans FB";
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            color: #1e1d1d;
+            margin-bottom: 0;
+
+        }
+
+    }
+    
+    .mainsection-search{
+        width: 120px;
+        height: 144px;
+        border-radius: 16px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin: auto;
+        padding: 8px 12px 0px 18px;            
+        .menudua{           
+            width: 72px;
+            height: 135px;
+        }
+        p{
+            font-family: "Berlin Sans FB";
+            font-weight: normal;
+            margin-top: -35px;
+            font-size: 18px;
+            text-align: left;
+            color: #1e1d1d;
+        }
+    }
+
+}
+.extra-mainsection{
+    padding-top: 28px;
+    .extra-mainsection-carirs{
+        width: 120px;
+        height: 144px;
+        border-radius: 16px;        
+        border: 1px solid #707070;
+        margin: auto;        
+        .carirs{
+            margin-top: 11px;
+            width: 118px;
+            height: 87px;
+            background: transparent;
+        }
+        p{
+            font-family: "Berlin Sans FB";
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            color: #1e1d1d;
+            margin-bottom: 0;
+
+        }
+
+    }
+    .extra-mainsection-cekobat{
+        width: 120px;
+        height: 144px;
+        border-radius: 16px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin: auto;
+        .cekobat{
+            margin-top: 22px;
+            width: 118px;
+            height: 93px;
+            background: transparent;
+        }
+        p{
+            margin-top: -10px;
+            font-family: "Berlin Sans FB";
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            color: #1e1d1d;
+
+        }
+    }
+
+}
+.section-menu{
+    margin: 43px 0 0 0;
+    .section-menu-info{
+        font-family: "Berlin Sans FB";
+        font-weight: normal;
+        font-size: 18px;
+        text-align: left;
+        color: #1e1d1d;
+        text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.33);
+
+    }
+    .section-menu-lihat{
+        width: 120px;
+        height: 24px;
+        border-radius: 10px;
+        background: #b7afaf;
+
+        p{
+            font-family: "Berlin Sans FB";
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            color: #f61f1f;
+            opacity: 0.88;
+
+        }
+
+
+    }
+}
+
+//menu-cari-rs
+.container-menu{
+    margin-top: 100px;
+    .container-menu-dokterhewan{
+        width: 380px;
+        height: 86px;
+        border-radius: 43px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin-left: 0;
+        .menu-dokterhewan{
+            margin-top: -1px;
+            width: 88px;
+            height: 86px;
+            background: #88F1EA ;
+            border-radius: 43px 0 0 43px;
+            border: 1px solid #707070;
+        }
+        p{
+            font-family: "Segoe UI";
+            font-weight: 600;
+            font-size: 31px;
+            margin: 15px 0 0 35px ;
+            color: #0d0b0b;
+
+        }
+    }
+    .container-menu-dokteranak{
+        width: 380px;
+        height: 86px;
+        border-radius: 43px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin-left: 0;
+        margin-top: 60px;
+        .menu-dokteranak{
+            margin-top: -1px;
+            width: 88px;
+            height: 86px;
+            background: #88F1EA ;
+            border-radius: 43px 0 0 43px;
+            border: 1px solid #707070;
+        }
+        p{
+            font-family: "Segoe UI";
+            font-weight: 600;
+            font-size: 31px;
+            margin: 15px 0 0 35px ;
+            color: #0d0b0b;
+
+        }
+    }
+    .container-menu-dokterspesialis{
+        width: 380px;
+        height: 86px;
+        border-radius: 43px;
+        background: #fff;
+        border: 1px solid #707070;
+        margin-left: 0;
+        margin-top: 60px;
+        .menu-dokterspesialis{
+            margin-top: -1px;
+            width: 88px;
+            height: 86px;
+            background: #88F1EA ;
+            border-radius: 43px 0 0 43px;
+            border: 1px solid #707070;
+        }
+        p{
+            font-family: "Segoe UI";
+            font-weight: 600;
+            font-size: 31px;
+            margin: 15px 0 0 35px ;
+            color: #0d0b0b;
+
+        }
+    }
+
+    
+}
+//chat dokter
+.container-chat{
+    margin-top: 500px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #707070;
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.16);
+    p{
+        font-family: "Segoe UI";
+            //font-weight: 600;
+            font-size: 20px;
+            margin-left: 20px;
+           // margin: 15px 0 0 35px ;
+            color: #000;
+    }
+}
+.container-ketik{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    
+    p{
+        font-family: "Segoe UI";
+            //font-weight: 600;
+            font-size: 20px;
+            margin-left: 20px;
+           // margin: 15px 0 0 35px ;
+            color: #000;
+    }
+}
+//footer index
+hr{
+    margin: 0;
+    width: 413px;
+    
+    background-color: #030202;
+    border: 1px solid #030202;
+
+}
+.section-footer{
+    width: 412px;
+    height: 207px;
+    background: #6beee6;
+    padding: 10px;
+    border: 1px solid rgba(112, 112, 112, 0);
+    opacity: 0.8;
+    box-shadow: 3px 3px 6px rgba(15, 11, 11, 0.16);
+    .row-section-footer{
+        margin-top: 22px;
+        .col-infosatu{
+            margin: auto; 
+            .infosatu{
+                width: 192px;
+                height: 131px;  
+            }
+            p{
+                font-family: "Segoe UI";
+                font-weight: normal;
+                font-size: 15px;
+                color: #707070;
+
+            }
+
+        }
+        .col-infodua{
+            margin: auto;
+            .infodua{
+                width: 192px;
+                height: 131px;
+            }
+            p{
+                font-family: "Segoe UI";
+                font-weight: normal;
+                font-size: 15px;
+                color: #707070;
+
+            }
+
+        }
+        
+        
+
+    }
+   
+}
+@media (min-width:800px) and (max-width: 2000px){
+    /*
+    .navbar-header{   
+        margin: auto;
+        /*height: 72px;
+    }*/
+}
+@media (min-width:100px) and (max-width: 799px){
+    
+}
