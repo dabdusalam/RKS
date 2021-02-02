@@ -339,6 +339,34 @@ body {
   border-color: #b9b9b9;
 }
 
+.container-drop-obat .container-browse {
+  width: 122px;
+  height: 40px;
+  border-radius: 15px;
+  background: #4285f4;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.container-drop-obat .container-browse p {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.container-drop-obat p {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 20px;
+  color: #b9b9b9;
+}
+
 hr {
   margin: 0;
   width: 413px;
